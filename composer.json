@@ -10,12 +10,5 @@
     "psr-4": {
       "mywloop\\nova\\": "src/"
     }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "mywloop\\nova\\ForNovaServiceProvider"
-      ]
-    }
   }
 }
