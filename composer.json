@@ -1,22 +1,22 @@
 {
-    "name": "mywloop/nova",
-    "description": "For My Nova Project",
-    "type": "library",
-    "license": "MIT",
-    "minimum-stability": "dev",
-    "require": {
-        "php": "^8.1"
-    },
-    "autoload": {
-        "psr-4": {
-            "mywlop\\nova\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "mywloop\\nova\\ForNovaServiceProvider"
-            ]
-        }
+  "name": "mywloop/nova",
+  "description": "For My Nova Project",
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "mywloop\\nova\\": "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "mywloop\\nova\\ForNovaServiceProvider"
+      ]
+    }
+  }
 }
